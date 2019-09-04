@@ -1,11 +1,10 @@
 body{
-	background-color: #080818;
+	background-color: #080600;
 	color: white;
-	margin-left: 15%;
-	margin-right: 15%;
 	font-size: 120%;
 	text-align: justify;
-
+	margin: auto;
+	max-width: 1000px;
 }
 
 
@@ -20,17 +19,30 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+table {
+	width: 100%;
+}
 a{
 	color:white;
 }
+h2{
+	color: #e61375;
+}
 .bouton{
+	font-family:Stencil;
 	color: #F0F0F0;
 	margin: 5%;
-	margin-left: 20%;
-	margin-right: 20%;
-	border-bottom-width: 2.5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
 	text-align: center;
-	border: 3px red groove;
-	border-radius: 10px;
+	border: 10px solid;
+	border-color: #6bb136;
+	border-radius: 20px;
 	font-size: 200%;
+}
+iframe{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
