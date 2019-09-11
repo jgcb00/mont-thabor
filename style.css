@@ -6,6 +6,10 @@
     font-family: "lucida";
     src: url("./lucida sans typewriter.ttf") format("truetype");
 }
+@font-face {
+    font-family: "trial";
+    src: url("./dJ4TRIAL.ttf") format("truetype");
+}
 
 body{
 	background-color: #080600;
@@ -22,6 +26,7 @@ h1{
 	font-family: "Keedy Bold";
 text-align: center;
 font-size: 400%;
+color: #63b32e;
 }
 img {
 	max-width: 100%;
