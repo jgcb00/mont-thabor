@@ -13,14 +13,20 @@
 
 body{
 	background-color: #080600;
-	color: white;
+	/*background-image: url("./source/background.png"); */
 	font-family: "lucida";
 	font-size: 120%;
 	text-align: justify;
 	margin: auto;
 	max-width: 1000px;
+	color: white;
 }
-
+.banderole{
+	/*color: white;*/
+}
+.texte{
+	/*color: black;*/
+}
 
 h1{
 	font-family: "Keedy Bold";
@@ -45,6 +51,16 @@ h2{
 	font-family: "Keedy Bold";
 	color: #e61375;
 }
+h4{
+	
+}
+button{
+	width: 100%;
+	height: 100%;
+}
+td{
+	text-align: center;
+}
 .bouton{
 	font-family:Stencil;
 	color: #F0F0F0;
@@ -58,8 +74,20 @@ h2{
 	border-radius: 20px;
 	font-size: 200%;
 }
+
 iframe{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+ul {
+   list-style-type: none;
+}
+li:before {
+   content: '- ';
+}
+span{
+	font-weight: bold;
+	text-align: center;
+	color: #e61375;
 }

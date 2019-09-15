@@ -3,6 +3,7 @@
 <head>
 	<title>Mont'Thabor</title>
 	<link rel="stylesheet" href="./style.css" />
+	<meta charset="utf-8">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147398095-1"></script>
 <script>
@@ -14,8 +15,9 @@
 </script>
 
 </head>
-<meta charset="utf-8">
+
 <body>
+	<div class="banderole">
 <img src="./source/banderole.png">
 <table>
 	<tr>
@@ -29,55 +31,74 @@
 </table>
 <h3 class="bouton"><a href="./billetterie.html">Billetterie Christothèque</a></h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oVj8cfrO9WY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h2>Qui sommes nous ? </h2>
-<p>
-Des jeunes qui aiment Jésus, des parents qui aiment Jésus... des familles qui aiment Jésus. Bref, des amis qui s'associent dans la joie de la transfiguration pour vous proposer des événements entre Ciel et Terre.
-</p>
-<h2>Mont'Thabor qu'est ce que c'est ?</h2>
-<p>
-	Fondée au cours de l'année 2018 par deux familles, cette association oeuvre pour le ressourcement spirituel et familial. Elle s'articule tout au long de l'année autour de différentes propositions, dont le souhait principal est d'harmoniser les dimensions spirituelles et humaines de nos vies. Seul ou en famille, cette association vous invite par des temps de louange à anticiper la joie de la fête éternelle, par des temps d'enseignement à vous émerveiller de vos vies, et par des temps fraternels à vous embellir mutuellement ! <br><br>
-	Mont Thabor, c'est la manifestation de la tendresse du Père.<br>
-Mont Thabor, c'est l'expression du "bon d'être entre frères".<br>
-Mont Thabor, c'est la montagne où l'unité se fait dans la lumière.<br>
-</p>
 
-<h2>Mont'Thabor à Gagnières</h2>
-<p>
-	Depuis deux années, dans le cadre du Centre Chrétien Œcuménique de Gagnières, Mont Thabor organise un camp spirituel de 6 jours, ouvert à tous. Une semaine idéale pour de nouvelles rencontres ou des retrouvailles dans un cadre décontracté et ambiancé au coeur des Cévennes. Ces quelques jours sont ponctués par de nombreuses activités spirituelles, sportives et artistiques, proposant des lieux d'expression et de découvertes adaptés pour chacun. La joie de la fraternité est au rendez vous entre les randonnées, les sorties en kayak, les nuits à la belle étoile et les baignades !<br>
-<br>
-Anne et Alain Merlo, ayant un ministère auprès des couples et des familles, interviennent tout au long de la semaine. Ils proposent des temps d'enseignements en plénières, des ateliers spécifiques mais aussi un accompagnement particulier.
-</p>
-<h2>Mont'Thabor en Christothèque </h2>
-<p>
-	Le 12 octobre 2019, Mont Thabor vous invite à un événement immanquable : une  "christotheque" mixée par le DJ Padre !
-Tu connais le DJ Padre ? Un homme qui, des platines à la soutane, n'a pas perdu le rythme. Il sait sur quel pied te faire danser !
-Une Christotheque ? c'est une soirée où tu danses, une soirée où tu chantes, une soirée où tu ris, une soirée pour le Christ entre l'électro, le pop, le techno et le rap !
-Le 12 octobre, c'est une soirée mixée pour louer :) N'hésites pas, la fête t'attends ! 
-Sois le bienvenu et invite largement.
-</p>
-
-<h3 class="bouton"><a href="./billetterie.html">Billetterie Christothèque</a></h3>
-
-<h2>Une journée de formation</h2>
-<p>
-	L‌e 12 octobre, c'est aussi une journée de formation ouverte à tous. Le thème ? l'intercession.
- <br>
-
-	Anne Lemaitre, laïque catholique diplômée en études bibliques et en langues bibliques de l'Institut catholique de Paris, interviendra lors de cette journée. Elle est actuellement responsable du mouvement France-Intercession, elle est également l'auteur du livre Intercession Prophétique, ed des Béatitudes. 
-
-</p>
-
-<h2> Vous avez dit intercession ? </h2>
-<p>
-Un mot qui peut vous parler et/ou vous donner la chaire de poule. C'est un mot de 12 lettres qui vous invite, comme les 12 disciples de Jésus, à aller en mission sur des terrains où vous serez appelée à vous positionner selon des coordonnées spirituelles. L'intercession, c'est un mot composé de 4 syllabes, qui, à l'image des quatre pieds d'une chaise, demande une assise réfléchie et profondément ancrée dans la réalité ecclésiale. Voulez-vous être solidement établis pour une prière d'intercession efficace pour votre famille et votre génération ? N'hésitez pas, l'intercession c'est pas bidon !
-</p>
+</div>
+<div class="menu">
+	<h2>Menu</h2>
+	<table>
+		<tr>
+			<td><button onclick="quiSommeNous()"><h4>Qui sommes nous ? </h4></button></td>
+			<td><button onclick="uneChristothequeCEstQuoi()"><h4>Une Christothèque c'est quoi ?</h4></button></td>
+			<td><button onclick="uneJourneeDeFormation()"><h4>Une journée de formation     </h4></button></td>
+			<td><button onclick="MTGagnières()"><h4>Mont'Thabor à Gagnières</h4></button></td>
+		</tr>
+		<tr>
+			<td><button onclick="MTquEstCeQue()"><h4>Mont'Thabor qu'est ce que c'est ?</h4></button></td>
+			<td><button onclick="MTChristotheque()"><h4>Mont'Thabor en Christothèque  </h4></button></td>
+			<td><button onclick="vousAvezDitIntercession()"><h4>Vous avez dit intercession ?    </h4></button></td>
+			<td><button onclick="questionsContacter()"><h4>Des questions ? Nous contacter     </h4></button></td>
+		</tr>
+	</table>
+	
+	
+	
+	
+	
 
 
-<h2>Des questions ? Nous contacter</h2>
-<p>
-	Si vous avez des questions hésitez pas à nous contacter à cette adresse mail : assos.mont.thabor@gmail.com
-</p>
 
+</div>
+<div id="Texte">
 
+</div>
+<h3 class="bouton" style="color: black;"><a href="./billetterie.html">Billetterie Christothèque</a></h3>
 </body>
+<script type="text/javascript">
+	function quiSommeNous(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Qui sommes nous ? </h2><p>Fondée au cours de l'année 2018 par deux familles, cette association (officiellement lancée en 2019) oeuvre pour le ressourcement spirituel et familial par la restauration des jeunes et des adultes. Elle organise tout au long de l'année, différentes propositions, dont le souhait principal est d'harmoniser les dimensions humaines et spirituelles de nos vies. Changez les vies par une expérience fraternelle et spirituelle. Seul ou en famille, cette association vous invite par des temps de louange à anticiper la joie de la fête éternelle, par des temps d'enseignement à vous émerveiller de vos vies parfois cabossées et par des temps fraternels à vous embellir mutuellement ! <br><br> Président : JG Barthélemy <br> Trésorier : LM Poitras</p>"
+	}
+	function uneChristothequeCEstQuoi(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Une Christothèque c'est quoi ?</h2><p>Une \"Christothèque\" c'est le mélange de Christ et Discothèque. Donc cela ressemble à une \"boite de nuit\" avec exclusivement de la musique moderne chrétienne mixée en direct par le DJ. Découvrez tous ces genres en version chrétienne : rap, électro, pop, rock, techno ... <br> Ce concept est apparu au Brésil, il y a une dizaine d\'année et s'est exporté partout dans le monde depuis. Le DJ Padre est LA référence française. <br> Venez donc découvrir une superbe soirée dans la joie de la danse, de l'ambiance et défoulez vous jusqu'au fin fond de la nuit. </p>";	
+	}
+	function MTquEstCeQue(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Mont'Thabor qu'est ce que c'est ?</h2><p>Mont Thabor, c'est la manifestation de la tendresse du Père.<br>Mont Thabor, c'est l'expression du \"bonheur d'être entre frères\".<br>Mont Thabor, c'est la montagne où l'unité (y compris entre chrétiens) se fait dans la lumière.<br>Mont Thabor, c'est le lieu de la retraite et du repos. <br> Mont Thabor, c'est le lieu où Dieu nous redit \" tu es mon Fils Bien-Aimé, tu es ma fille Bien-Aimée\"<br> Mont Thabor, c'est le lieu de la joie de la rencontre. <br> <br> <br> Texte de l'évangile selon Matthieu chapitre 17 version TOB  <br>1 Six jours après, Jésus prend avec lui Pierre, Jacques et Jean son frère, et les emmène à l’écart sur une haute montagne. <br>2 Il fut transfiguré devant eux : son visage resplendit comme le soleil, ses vêtements devinrent blancs comme la lumière. <br>3 Et voici que leur apparurent Moïse et Elie qui s’entretenaient avec lui. <br>4 Intervenant, Pierre dit à Jésus : « Seigneur, il est bon que nous soyons ici ; si tu le veux, je vais dresser ici trois tentes, une pour toi, une pour Moïse, une pour Elie. » <br>5 Comme il parlait encore, voici qu’une nuée lumineuse les recouvrit. Et voici que, de la nuée, une voix disait : « Celui-ci est mon Fils bien-aimé, celui qu’il m’a plu de choisir. Écoutez-le ! » <br>6 En entendant cela, les disciples tombèrent la face contre terre, saisis d’une grande crainte. <br>7 Jésus s’approcha, il les toucha et dit : « Relevez-vous ! soyez sans crainte ! » <br>8 Levant les yeux, ils ne virent plus que Jésus, lui seul. </p>"	
+	}
+	function MTGagnières(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Mont'Thabor à Gagnières</h2><p>	Depuis deux années, dans le cadre du Centre Chrétien Œcuménique de Gagnières, Mont Thabor organise un camp familial vacances et prières de 6 jours, ouvert à tous. Une semaine idéale pour de nouvelles rencontres ou des retrouvailles dans un cadre décontracté au coeur des Cévennes. Ces quelques jours sont ponctués par de nombreuses activités sportives, artistiques et spirituelles, proposant des lieux d'expression et de découvertes adaptés pour chacun. La joie de la fraternité est au rendez vous entre les randonnées, les sorties en kayak, les nuits à la belle étoile et les baignades !<br><br>Anne et Alain Merlo, ayant un ministère auprès des couples et des familles, interviennent tout au long de la semaine. Ils proposent des temps d'enseignements en plénières, des ateliers spécifiques mais aussi un accompagnement particulier.</p>"
+	}
+	function MTChristotheque(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Mont'Thabor en Christothèque </h2><p>	Le 12 octobre 2019, Mont Thabor vous invite à un événement immanquable : une  \"christotheque\" mixée par le DJ Padre ! Tu connais le DJ Padre ? Un homme qui, des platines à la soutane, n'a pas perdu le rythme. Il sait sur quel pied te faire danser ! Une Christotheque ? c'est une soirée où tu danses, une soirée où tu chantes, une soirée où tu ris, une soirée pour le Christ entre l'électro, le pop, le techno et le rap ! Le 12 octobre, c'est une soirée mixée pour louer :) N'hésites pas, la fête t'attends ! Sois le bienvenu et invite largement. <br> <h5> Programme provisoire : </h5><ul><li>20 h 00 : Ouverture des portes </li><li>21 h 00 : concert de louange </li> <li>22 h 00 : soirée DJ Padre</li></ul><br>Le lieu : 13 bis rue de la gare, 60126 Longueil Sainte Marie<br><br><span> L'inscription et l'adhésion à l'association est obligatoire (sur le lien ci-dessous)</span><br> </p>"
+	}
+	function uneJourneeDeFormation(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Une journée de formation</h2><p>	L‌e 12 octobre, c'est aussi une journée de formation ouverte à tous. Le thème ? l'intercession. <br>	Anne Lemaitre, laïque catholique, diplômée en études bibliques et en langues bibliques de l'Institut catholique de Paris, interviendra lors de cette journée. Elle est actuellement responsable du mouvement France-Intercession, elle est également l'auteur du livre Intercession Prophétique, ed des Béatitudes. <br> <h5> Programme provisoire : </h5><ul><li>14 h 00 : Accueil </li><li>14 h 30 : Début de la formations </li> <li>18 h 30 : Messe à l'Eglise de Longueil sainte Marie (facultatif)</li><li>20 h 00 : Repas tiré du sac</li><li>21 h 00 : Soirée Christothèque</li></ul><br><br><span> L'inscription et l'adhésion à l'association est obligatoire (sur le lien ci-dessous)</span><br></p>"
+	}
+	function vousAvezDitIntercession(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2> Vous avez dit intercession ? </h2><p>Un mot qui peut vous parler et/ou vous donner la chaire de poule. C'est un mot de 12 lettres qui vous invite, comme les 12 disciples de Jésus, à aller en mission sur des terrains où vous serez appelée à vous positionner selon des coordonnées spirituelles. L'intercession, c'est un mot composé de 4 syllabes, qui, à l'image des quatre pieds d'une chaise, demande une assise réfléchie et profondément ancrée dans la réalité ecclésiale. Voulez-vous être solidement établis pour une prière d'intercession efficace pour votre famille et votre génération ? N'hésitez pas, l'intercession c'est pas bidon !</p>"
+	}
+	function questionsContacter(){
+		var Texte = document.getElementById("Texte");
+		Texte.innerHTML = "<h2>Des questions ? Nous contacter</h2><p>	Si vous avez des questions hésitez pas à nous contacter à cette adresse mail : assos.mont.thabor@gmail.com</p>"
+	}
+
+
+
+
+</script>
 </html>
